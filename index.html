@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-teanm="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy Website Design</title>
+    <!-- daisyUl CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- css link  -->
+<link rel="stylesheet" href="style.css">
+<!-- Fontawesome CDN  -->
+<script src="https://kit.fontawesome.com/9e43434e44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- navbar  -->
+        <nav class="w-11/12 mx-auto py-3 flex justify-between items-center">
+            <div class="flex">
+                <img class="w-full" src="assets/logo.webp" alt="">
+                <h1 class="font-extrabold text-xl">Peddy</h1>
+            </div>
+            <!-- nav-button  -->
+            <div>
+                <button class="btn">Home</button>
+                <button class="btn ml-4 mr-4">Home</button>
+                <button class="btn">Shop</button>
+                <button class="btn ml-4">Contact</button>
+            </div>
+            <!-- profile user  -->
+            <div class="rounded-full border-2 pl-2 pt-1 pb-1 pr-2"><i class="fa-regular fa-user"></i></div>
+        </nav>
+        <!-- Bringing Families Together -->
+        <section class="text-center">
+            <h4 class="mt-10">Bringing Families Together ❤️‍🔥 </h4>
+            <h1 class="text-5xl font-extrabold mt-4 mb-4">Your Path to Adoption<br> Starts Here</h1>
+                <p class="text-color-prag">It is a long established fact that a reader will be distracted by the readable content of a <br>page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                <!-- view button  -->
+                <button class="btn Btn mt-5 text-white">view More</button>
+                <!-- img  -->
+                <img class="mx-auto w-1/2 h-auto" src="assets/pet.webp" alt="">
+                <!-- Adopt Your Best Friend -->
+                <div>
+                    <h3 class="text-3xl font-extrabold mb-3">Adopt  Your  Best Friend</h3>
+                    <p class="text-color-prag">It is a long established fact that a reader will be distracted by the readable content of a<br> page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                </div>
+        </section>
+    </header>
+    <nav id="categories" class="py-3 flex gap-5 justify-center"></nav>
+    <main>
+      <div class="w-11/12 mx-auto py-5 flex justify-between items-center">
+        <h1 class="font-bold">Best Deal For you</h1>
+        <button class="Btn text-white pl-3 pr-3 pt-2 pb-2">sort by price</button>
+      </div>
+        <section id="pets" class="w-11/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 py-10 border pl-2 pr-2"></section>
+    </main>
+    <!-- footer  -->
+    <footer class="footer bg-neutral text-neutral-content p-10 justify-between">
+        <div>
+            <div class="flex">
+                <img class="w-full" src="assets/logo.webp" alt="">
+                <h1 class="font-extrabold text-xl">Peddy</h1>
+            </div>
+          <a class="link link-hover">Location: av. Washington 165, NY CA </a>
+          <a class="link link-hover">54003</a>
+          <a class="link link-hover">Phone: +31 85 964 47 25</a>
+          <a class="link link-hover">Email: info@yourdomain.com</a>
+          <a class="link link-hover">Openings hours: 9.00 AM - 5.00 PM</a>
+          <div class="text-3xl" ><i class="fa-brands fa-facebook mr-1 text-blue-600"></i><i class="fa-brands fa-x-twitter mr-1 text-white"></i><i class="fa-brands fa-youtube mr-1 text-red-500"></i><i class="fa-brands fa-instagram text-yellow-600"></i></div>
+        </div>
+        <div>
+          <h6 class="footer-title text-white">Useful Links</h6>
+          <a class="link link-hover">Home</a>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Animals</a>
+          <a class="link link-hover">Foundation</a>
+          <a class="link link-hover">Contact</a>
+        </div>
+        <div>
+          <h6 class="footer-title text-white">Drop a message</h6>
+          <label class="input input-bordered flex items-center gap-2 bg-black">
+            <input type="text" class="text-white" placeholder="Enter your email" />
+          </label>
+          <label class="input input-bordered flex items-center gap-2 Btn">
+            <input type="text" class="text-white text-center" placeholder="Suscribe" />
+          </label>
+        </div>
+      </footer>
+    <!-- script  -->
+     <script src="scripts/Peddy.js"></script>
+</body>
+</html>
